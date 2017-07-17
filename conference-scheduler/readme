@@ -1,0 +1,16 @@
+Instructions to run the app:
+
+Step 1: gradle clean build install
+Step 2: cd <unziped-location>/conference-scheduler/build/libs
+Step 3: java -jar conference-scheduler-1.0-SNAPSHOT.jar
+Step 4: Leave empty to pick the default file when prompted
+Step 5: Key in the fully qualified file name to test other files
+
+
+The Design for the Application is provided as UML diagram at the location:
+<unziped-location>/conference-scheduler/ctm.png
+
+Assumptions:
+1. Lunch and networking Session will be mandatory, even in the case of sessions are not there to engage full day.
+2. If any lines in the input file is don't have a well-pattern line will ignored and will process the other lines.
+3. All the talks will be sorted in descending order based on talk duration and each talk will be accomodated to a session.
