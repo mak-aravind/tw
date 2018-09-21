@@ -13,7 +13,7 @@ public class ValidatedLinesParser implements IParser{
 
 	private ITalkFactory talkFactory;
 	
-	public ValidatedLinesParser(ITalkFactory talkFactory) {
+	public ValidatedLinesParser(final ITalkFactory talkFactory) {
 		this.talkFactory = talkFactory;
 	}
 	@Override
